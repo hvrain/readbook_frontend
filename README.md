@@ -1,7 +1,7 @@
 # 프론트엔드 정리 자료
 
 ## HTML
-- [메타 태크에 대하여](./html/meta_tag.md)
+- [HTML 태그 정리](./html/tag.md)
 
 <br>
 
