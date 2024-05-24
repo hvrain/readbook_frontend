@@ -50,6 +50,8 @@
   media tag끼리 공백없이 붙여쓰면 크기가 딱 맞게 배치된다. (위 예시처럼)
 * 그롬에서는 autoplay 하려면 muted가 반드시 같이 와야한다.
 
+#### media tag 모두 width와 height 사용해야 한다. 왜냐하면 , 사용자 경험, 반응형 웹 구축
+
 ---
 
 # form tag
