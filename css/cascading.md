@@ -61,7 +61,7 @@ li {
 
 #### 1. @media의 유형을 먼저보고 필요없는 @media를 제외한다 (@media print 제외)
 
-#### 2. 출처와 동시에 !important를 확인한다. (user-css, user-agent-css 제외, layer 제외)
+#### 2. 출처와 동시에 !important를 확인한다. (user-css, user-agent-css 제외, layer 제외, !important 없음)
 
 #### 3. 특이성이 높은 스타일을 확인한다. (같음)
 
