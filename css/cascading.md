@@ -111,7 +111,7 @@ li {
 <p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
 ```
 
-|Order| (low to high) Author style |Importance |
+|Order (low to high)| Author style |Importance |
 |:-|:-|:-|
 |1| A - first layer |normal |
 |2| B - second layer |normal |
