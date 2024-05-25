@@ -8,7 +8,6 @@
 
 ### Reference
 [Google LightHouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=ko)  
-<br>
 
   
 ## 이미지 최적화
