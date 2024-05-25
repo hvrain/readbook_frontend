@@ -2,11 +2,11 @@
 
 ## 스타일 우선순위
 
-1. Relevance (관련성)
-2. Origin and importance (출처 및 중요성)
-3. Specity (특이성)
-4. Scoping proximity (범위 접근성)
-5. Order of appearance (표시 순서)
+1. [Relevance (관련성)](#relevance)
+2. [Origin and importance (출처 및 중요성)](#origin-and-importance)
+3. [Specity (특이성)](#specity)
+4. [Scoping proximity (범위 접근성)](#scoping-proximity)
+5. [Order of appearance (표시 순서)](#order-of-appearance)
 
 ## Relevance
 
