@@ -92,8 +92,9 @@ li {
 - **!important가 있으면 먼저 적용된 쪽의 스타일을 따른다. (layered, unlayered 각각 따로 적용)**
 - **@layer끼리는 Cascading의 일반 규칙과 상관없이 뒤에 명시된 쪽을 따른다.**
 - **layered와 unlayered 둘 다 !important가 있다면 layer가 높은 우선순위를 가진다**
+- !important 는 남용하지 않는 것이 좋다. 왜냐하면 코드의 흐름에서 벗어나기 때문이다.
 
-### example
+### impotance with layer
 
 ```html
 
