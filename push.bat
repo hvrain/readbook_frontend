@@ -1,5 +1,3 @@
 git add *
-git commit -m "Auto push %date% %time%"
+git commit -m "%0"
 git push origin main
-
-pause
