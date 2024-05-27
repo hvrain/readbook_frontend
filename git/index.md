@@ -1,5 +1,17 @@
 # git 꿀팁
 
+## commit
+
+### 1. --amend
+
+### --amend는 최근에 한 commit으로 update하는 방법이다
+
+#### commit의 양이 많아지는걸 싫어하면, 자주 사용할 수 있다
+
+#### 최근에 commit을 덮어씌우는 거라서 데이터 유실의 가능성이 있다. **조심하자**
+
+&nbsp;
+
 ## reflog
 
 ### reflog는 모든 commit, checkout, merge의 이력을 가지고 있다
