@@ -1,5 +1,7 @@
 # git flow workflow
 
+![git flow workflow](https://wac-cdn.atlassian.com/dam/jcr:cc0b526e-adb7-4d45-874e-9bcea9898b4a/04%20Hotfix%20branches.svg?cdnVersion=1794){: width="100" height="100"}
+
 ## git flow란?
 
 branch를 활용한 변경 이력 관리 전략으로, 약속과 규칙과 같은 개념이다.
