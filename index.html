@@ -1,51 +1,64 @@
 <style>
-  * {
-    margin: 0;
+  .one {
+    width: 2000px;
+    height: 2000px;
+    background-color: red;
   }
-  .main {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  .two {
+    width: 1200px;
+    height: 1200px;
+    background-color: blue;
   }
-  .vidio {
+  .three {
+    width: 600px;
+    height: 600px;
     background-color: green;
   }
-  .touch {
-    display: block;
-  }
-  .hover {
-    display: none;
-  }
-  h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  h1:hover {
-    color: red;
-  }
-
-  @media (orientation: landscape) {
-    div {
-      background-color: red;
-    }
-  }
-
-  @media (any-hover: hover) {
-    .main {
-      background-color: yellow;
-    }
-    .touch {
-      display: none;
-    }
-    .hover {
-      display: block;
-    }
-  }
 </style>
-<div class="main">
-  <div class="video"></div>
-  <h1 class="touch">Device is touchscreen</h1>
-  <h1 class="hover">Device is hoverable</h1>
+<div class="one">
+  <div class="two">
+    <div class="three"></div>
+  </div>
 </div>
+<script>
+  const one = document.querySelector(".one");
+  const two = document.querySelector(".two");
+  const three = document.querySelector(".three");
+
+  one.addEventListener(
+    "click",
+    () => {
+      console.log("capture");
+      console.log("one");
+    },
+    true
+  );
+  two.addEventListener(
+    "click",
+    () => {
+      console.log("capture");
+      console.log("two");
+    },
+    true
+  );
+  three.addEventListener(
+    "click",
+    () => {
+      console.log("capture");
+      console.log("three");
+    },
+    true
+  );
+  one.addEventListener("click", () => {
+    console.log("bubble");
+    console.log("one");
+  });
+  two.addEventListener("click", () => {
+    console.log("bubble");
+    console.log("two");
+  });
+  three.addEventListener("click", () => {
+    console.log("bubble");
+    console.log("three");
+  });
+</script>
