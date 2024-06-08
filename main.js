@@ -1,1 +1,0 @@
-const mediaQueryList = window.matchMedia("(orientation: portrait)");
