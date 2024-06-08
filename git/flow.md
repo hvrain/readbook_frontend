@@ -61,3 +61,8 @@ master branch에 표기된 tag로부터 분기하여 branch를 생성하며 [Bas
 > git flow hotfix finish
 
 develop과 master로 병합되며, master에선 hotfix 버전으로 태그됨
+
+### Reference
+
+[Atlassian](https://www.atlassian.com/ko/git/tutorials/comparing-workflows/gitflow-workflow)  
+[강버섯 블로그](https://velog.io/@___pepper/Git-git-flow)
