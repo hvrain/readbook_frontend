@@ -11,35 +11,26 @@
 
 ### example
 
-- email Case
+- email case
 
 ```js
 <input type="email" required />;
 
-export function validEmail(target) {
-  if (target.checkValidity()) {
-    target.nextSibling?.remove();
-    target.classList.remove("input-invalid");
-  } else if (target.validity.valueMissing)
-    posInvalid(target, "이메일을 입력해주세요");
-  else if (target.validity.typeMismatch)
-    posInvalid(target, "잘못된 이메일 형식입니다");
+if (target.validity.valueMissing) {
+  //...
+} else if (target.validity.typeMismatch) {
+  //...
 }
 ```
 
-- password
+- password case
 
 ```js
 <input type="password" minlength="8" required />;
 
-export function validPassword(target) {
-  if (target.checkValidity()) {
-    target.nextSibling?.remove();
-    target.classList.remove("input-invalid");
-  } else if (target.validity.valueMissing) {
-    posInvalid(target, "비밀번호를 입력해주세요");
-  } else if (target.validity.tooShort) {
-    posInvalid(target, "비밀번호를 8자 이상 입력해주세요");
-  }
+if (target.validity.valueMissing) {
+  //...
+} else if (target.validity.tooShort) {
+  //...
 }
 ```
