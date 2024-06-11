@@ -34,3 +34,7 @@ if (target.validity.valueMissing) {
   //...
 }
 ```
+
+### Reference
+
+[About HTML5 form validation](https://jeonghwan-kim.github.io/dev/2020/06/08/html5-form-validation.html)
